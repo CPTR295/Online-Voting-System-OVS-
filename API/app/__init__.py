@@ -1,7 +1,7 @@
 from flask  import Flask 
 import toml 
 from app.model.config import init_db
-from celery_config import celery_init_app
+from API.celery_config import celery_init_app
 from flask_sock import Sock
 
 import logging
